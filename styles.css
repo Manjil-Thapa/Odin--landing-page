@@ -1,0 +1,139 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  /* text-align: center; */
+}
+
+/* TOP SECTION */
+header {
+  background-color: #1f2937;
+  color: white;
+  padding: 5px 30px 30px 30px;
+  /* height: 25vh; */
+}
+
+nav,
+.hero,
+section {
+  max-width: 70%;
+  margin: 0 auto;
+}
+nav,
+nav ul {
+  display: flex;
+  list-style: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+}
+a:hover {
+  text-decoration: underline;
+}
+nav img {
+  width: 100px;
+  height: 100px;
+  margin-right: auto;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: bolder;`
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.hero-title {
+  max-width: 400px;
+}
+
+.hero-img {
+  padding: auto;
+}
+.hero-img img {
+  width: 100%;
+  max-width: 600px;
+  /* object-fit: cover; */
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 4px 12px;
+  cursor: pointer;
+}
+
+/* MAIN SECTION */
+/* main {
+  height: 50vh;
+} */
+h2 {
+  text-align: center;
+  margin: 2.5rem;
+}
+.subtext img {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 10px;
+}
+.animals {
+  display: flex;
+  gap: 10px;
+}
+.gifs {
+  padding-bottom: 2.5rem;
+}
+/* FIGURE SECTION */
+figure {
+  background-color: #e5e7eb;
+  margin: 0;
+  padding: 5rem;
+}
+.quote {
+  width: 70%;
+  margin: 0 auto;
+}
+blockquote {
+  margin: 0;
+  font-size: 2.25rem;
+  font-style: italic;
+}
+figcaption {
+  text-align: end;
+  padding: 1.25rem 3.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+/* SIGNUP SECTION */
+.signup {
+  padding: 4rem;
+  width: 70%;
+}
+.signup-container {
+  background-color: #3882f6;
+  color: white;
+  padding: 1.5rem 3rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.signup button {
+  border: 1px solid white;
+
+}
+/* FOOTER SECTION */
+footer {
+  background-color: #1f2937;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}

@@ -2,4 +2,5 @@
 
 Landing page practice
 
-git test
+HTML done
+CSS - 90% done
