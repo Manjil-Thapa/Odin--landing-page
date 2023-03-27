@@ -4,8 +4,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
-  /* text-align: center; */
+  font-family: "Montserrat", sans-serif;
 }
 
 /* TOP SECTION */
@@ -13,7 +12,6 @@ header {
   background-color: #1f2937;
   color: white;
   padding: 5px 30px 30px 30px;
-  /* height: 25vh; */
 }
 
 nav,
@@ -30,10 +28,11 @@ nav ul {
 a {
   color: white;
   text-decoration: none;
-  padding: 0 10px;
+  padding: 10px;
 }
 a:hover {
   text-decoration: underline;
+  text-underline-position: under;
 }
 nav img {
   width: 100px;
@@ -42,24 +41,27 @@ nav img {
 }
 h1 {
   font-size: 3rem;
-  font-weight: bolder;`
+  margin: 0;
+  padding: 2rem 0;
 }
 .hero {
   display: flex;
   justify-content: space-between;
-  padding: 0;
+  padding: 2rem;
+  gap: 20px;
 }
 .hero-title {
-  max-width: 400px;
+  max-width: 420px;
 }
 
 .hero-img {
-  padding: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .hero-img img {
   width: 100%;
   max-width: 600px;
-  /* object-fit: cover; */
 }
 
 button {
@@ -72,26 +74,39 @@ button {
 }
 
 /* MAIN SECTION */
-/* main {
-  height: 50vh;
-} */
 h2 {
   text-align: center;
   margin: 2.5rem;
+  font-size: 2rem;
 }
-.subtext img {
-  max-width: 300px;
-  width: 100%;
-  border-radius: 10px;
+.gifs {
+  padding-bottom: 3rem;
 }
 .animals {
   display: flex;
-  gap: 10px;
+  gap: 15px;
 }
-.gifs {
-  padding-bottom: 2.5rem;
+.subtext {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  max-width: 300px;
 }
-/* FIGURE SECTION */
+
+.subtext img {
+  /* max-width: 300px; */
+  width: 100%;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+  box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.47);
+}
+.subtext img:hover {
+  scale: 1.05;
+  cursor: pointer;
+}
+
+/* QUOTE SECTION */
 figure {
   background-color: #e5e7eb;
   margin: 0;
@@ -102,38 +117,45 @@ figure {
   margin: 0 auto;
 }
 blockquote {
-  margin: 0;
+  margin: 1rem;
   font-size: 2.25rem;
   font-style: italic;
+  text-align: center;
 }
 figcaption {
-  text-align: end;
+  text-align: right;
   padding: 1.25rem 3.5rem;
   font-size: 1.2rem;
   font-weight: bold;
+  width: 60%;
+  margin: 0 auto;
 }
+
 /* SIGNUP SECTION */
 .signup {
-  padding: 4rem;
-  width: 70%;
+  padding: 4.5rem;
+  width: 50%;
+  font-size: 1rem;
 }
 .signup-container {
   background-color: #3882f6;
   color: white;
-  padding: 1.5rem 3rem;
+  padding: 1.5rem 2.5rem;
   border-radius: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  gap: 10px;
 }
 .signup button {
   border: 1px solid white;
-
+  flex-shrink: 0;
 }
+
 /* FOOTER SECTION */
 footer {
   background-color: #1f2937;
   color: white;
-  padding: 1.5rem;
+  padding: 1.7rem;
   text-align: center;
 }

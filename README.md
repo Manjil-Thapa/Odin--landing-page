@@ -1,6 +1,5 @@
 # Odin--landing-page
 
-Landing page practice
+Odin Landing page assignment
 
-HTML done
-CSS - 90% done
+All credits for the gifs and images goes to Pixabay.com
